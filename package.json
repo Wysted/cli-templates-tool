@@ -1,0 +1,16 @@
+{
+    "name": "cli-templates-tool",
+    "version": "0.0.2",
+    "description": "install templates",
+    "main": "index.js",
+    "bin": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Wysted",
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "9.2.16"
+    }
+}
