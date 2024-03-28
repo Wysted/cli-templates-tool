@@ -1,10 +1,19 @@
 {
     "name": "cli-templates-tool",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "install templates",
     "main": "index.js",
     "bin": "index.js",
     "type": "module",
+    "keywords": [
+        "Ts",
+        "templates",
+        "Boilerplate",
+        "Tauri",
+        "Rust",
+        "Prisma",
+        "Vue3"
+    ],
     "scripts": {
         "start": "node index.js"
     },

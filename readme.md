@@ -11,3 +11,4 @@ npx cli-templates-tool
 ## Todo list
 
 -   Añadir primer template con opcion con ejemplo o sin ejemplos
+-   Añadir mas templates
