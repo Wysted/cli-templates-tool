@@ -4,6 +4,7 @@ import runCommand from "./command.js";
 const gitCheckoutCommand = {
     1: {
         1: "git clone --depth 1 https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue.git ",
+        2: "git clone -b no-example --depth 1 https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue.git ",
     },
 };
 
@@ -25,7 +26,7 @@ class InstallTemplate {
                 type: "list",
                 name: "state",
                 message: "Instalar:",
-                choices: ["1.- con ejemplo"],
+                choices: ["1.- con ejemplo", "2.- sin ejemplo"],
             },
             {
                 type: "input",
@@ -52,6 +53,11 @@ class InstallTemplate {
                     selection.name
             );
             if (!checkedOut) process.exit(-1);
+            const checkedCd = await runCommand(
+                `cd ${selection.name} && git remote remove origin`
+            );
+            if (!checkedCd) process.exit(-1);
+
             console.log(
                 `\n\nPlantilla lista para usar: cd ${selection.name} && npm install\nnpm run tauri dev`
             );
