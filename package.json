@@ -1,6 +1,6 @@
 {
     "name": "cli-templates-tool",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "install templates",
     "main": "index.js",
     "bin": "index.js",
