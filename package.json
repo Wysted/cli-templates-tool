@@ -1,10 +1,14 @@
 {
     "name": "cli-templates-tool",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "install templates",
     "main": "index.js",
     "bin": "index.js",
     "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wysted/cli-templates-tool"
+    },
     "keywords": [
         "Ts",
         "templates",

@@ -8,7 +8,10 @@ or
 npx cli-templates-tool
 ```
 
+## Templates
+
+-   [Tauri + SQlite + Vue + Prisma + Ts](https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue)
+
 ## Todo list
 
--   Añadir primer template con opcion con ejemplo o sin ejemplos
 -   Añadir mas templates
