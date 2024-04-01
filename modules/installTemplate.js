@@ -54,7 +54,7 @@ class InstallTemplate {
             );
             if (!checkedOut) process.exit(-1);
             const checkedCd = await runCommand(
-                `cd ${selection.name} && git remote remove origin`
+                `cd ${selection.name} && rm -rf .git`
             );
             if (!checkedCd) process.exit(-1);
 
