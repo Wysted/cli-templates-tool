@@ -3,8 +3,8 @@ import runCommand from "./command.js";
 
 const gitCheckoutCommand = {
     1: {
-        1: "git clone --depth 1 https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue.git ",
-        2: "git clone -b no-example --depth 1 https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue.git ",
+        1: "git clone --depth 1 https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue-TS ",
+        2: "git clone -b no-example --depth 1 https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue-TS ",
     },
 };
 
