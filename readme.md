@@ -10,7 +10,7 @@ npx cli-templates-tool
 
 ## Templates
 
--   [Tauri + SQlite + Vue + Prisma + Ts](https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue)
+-   [Tauri + SQlite + Vue + Prisma + Ts](https://github.com/Wysted/Template-Tauri-SQLite-Prisma-Vue-TS)
 
 ## Todo list
 
